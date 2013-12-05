@@ -1,3 +1,5 @@
+// Originally by "pgreenland", http://www.thingiverse.com/thing:59817
+
 //Draw text
 //scale([4,4,4]) drawtext("Hello World!");
 
@@ -5,7 +7,7 @@
 //scale([2,2,2]) drawtext(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}");
 
 module drawtext(text, bs) {
-	// Mark's mod: Block size
+	// Mark's mod: Variable block size
 
 	//Characters
 	chars = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}";
